@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+    background-color: #F9FAFB;
+}
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+    * {
+        font-family: Inter, sans-serif;
+    }
+
+     .footerSection {
+        padding: 0 20px;
+    }
+
+    .footerSection img{
+        width: 150px;
+        height: 38px;
+    }
+
+    .copyWrightText, .privacyTerms{
+       margin: -10px 10px 20px 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    nav img{
+        width: 90px;
+        height: 25px;
+    }   
+
+    nav button{
+        font-size: 12px;
+    }
+
+    .banner {
+        padding: 0px 15px;
+    }
+
+    .banner h1 {
+        font-size: 34px;
+    }
+
+    .banner p {
+        font-size: 14px;
+    }
+
+    .bannerImageSection {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerImage {
+        width: 530px;
+        height: 550px;
+    }
+
+    .banner button {
+        margin-top: -10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .button1 {
+        padding: 15px 20px;
+    }
+
+    .button2 {
+        padding: 15px 50px;
+    }
+
+    .exploreSection {
+        padding: 0 20px;
+    }
+
+    .exploreSection p {
+        font-size: 12px;
+        margin-bottom: -10px;
+    }
+}
+
+.fontType {
+    font-family: Inter, sans-serif;
+}
+
+.gradient-theme {
+    @apply bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] 
+}
+
+.gradient-text {
+    @apply bg-clip-text text-transparent;
+}
+
+.hoverStyle {
+    transition: transform 200ms ease;
+}
+
+.hoverStyle:hover {
+    transform: scale(1.03);
+}
+
+ul li a {
+    cursor: pointer;
+}

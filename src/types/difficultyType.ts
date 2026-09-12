@@ -1,0 +1,1 @@
+export type DifficultiesType = "Beginner-Friendly" | "Intermediate" | "Advanced"
