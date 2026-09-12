@@ -1,6 +1,6 @@
 # 🧱 Techno Dev Stack
 
-A clean and modern web app where developers can explore popular technologies and build their own custom tech stack — one click at a time.
+A clean and modern web app where developers can explore popular technologies and build their own custom tech stack easily.
 
 ---
 
@@ -8,7 +8,7 @@ A clean and modern web app where developers can explore popular technologies and
 
 Picking the right tools for a new project can be confusing. There are so many frameworks, languages, and databases to choose from. **Techno Dev Stack** solves this problem in a simple way.
 
-It shows a big collection of popular technologies — like React, Node.js, PostgreSQL, and more — as neat cards. Each card shows the name, a short description, its category, difficulty level, and a rating. You can browse through them and click **"Add to Stack"** to save the ones you like. Your saved list shows up right beside the cards, so you can see your stack take shape as you go.
+It shows a big collection of popular technologies like React, Node.js, PostgreSQL, and more as neat cards. Each card shows the name, a short description, its category, difficulty level, and a rating. You can browse through them and click **"Add to Stack"** to save the ones you like. Your saved list shows up right beside the cards, so you can see your stack take shape as you go.
 
 The whole website is fast, fully responsive, and built with a clean design that uses one shared gradient color theme across the whole app.
 
@@ -20,7 +20,7 @@ The whole website is fast, fully responsive, and built with a clean design that 
 Browse through 24 technologies across categories like Frontend, Backend, Database, Language, Styling, and DevOps. Click **"Add to Stack"** on any card, and it instantly appears in the **"Your Stack"** panel. You can remove one item at a time with the ✕ button, or clear everything at once with **"Remove All"**.
 
 ### 2. 🔔 Smart Alerts With React-Toastify
-Every action gives instant feedback. Adding a technology, trying to add it twice, removing one item, or clearing the whole stack — each one shows a toast notification, so you always know what just happened.
+Every action gives instant feedback. Adding a technology, trying to add it twice, removing one item, or clearing the whole stack, each one shows a toast notification, so you always know what just happened.
 
 ### 3. 📱 Responsive Design
 The website works well on:
@@ -232,7 +232,7 @@ The parent can pass a function to the child through props. The child can call th
 onClick={() => setStack([...stack, techno])}
 ```
 
-Since `setStack` actually belongs to the state in `App.tsx`, calling it from the child updates the state that lives in the parent — that's how the child sends data back.s
+Since `setStack` actually belongs to the state in `App.tsx`, calling it from the child updates the state that lives in the parent and that is how the child sends data back.
 
 ---
 
