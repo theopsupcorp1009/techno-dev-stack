@@ -14,6 +14,13 @@ The whole website is fast, fully responsive, and built with a clean design that 
 
 ---
 
+## 🔗 Visit
+
+- **Live Site:** https://techno-stack-by-mrkhandipu.netlify.app/
+- **GitHub Repository:** https://github.com/theopsupcorp1009/techno-dev-stack
+
+---
+
 ## 🩷 Features
 
 ### 1. 🧩 Build Your Own Tech Stack
